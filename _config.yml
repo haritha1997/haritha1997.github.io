@@ -24,14 +24,13 @@ title:                 Haritha Paul
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "A personal journal of my learning".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
-  Open `_config.yml` to edit this text.
+  A personal journal of my learning
+ 
 
 # A shorter description for the sidebar.
 tagline:               >
-  "A personal journal of my learning".
-  Open `_config.yml` to edit this text.
+  A personal journal of my learning
+  
 
 # A list of keywords for your blog
 keywords:              []
@@ -43,17 +42,17 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Haritha Paul
+  email:               harithapaul97@gmail.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             haritha_97
 
 # Add links to the sidebar.
 menu:
   - title:             Example
     url:               /example/
-  - title:             Documentation
-    url:               https://hydejack.com/docs/
+  #- title:             Documentation
+  #  url:               https://hydejack.com/docs/
   - title:             About
     url:               /about/
 
