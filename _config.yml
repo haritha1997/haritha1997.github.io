@@ -49,10 +49,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             Blog
     url:               /example/
-  - title:             Documentation
-    url:               https://hydejack.com/docs/
+  #- title:             Documentation
+  #  url:               https://hydejack.com/docs/
   - title:             About
     url:               /about/
 
@@ -124,7 +124,7 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-132574461-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
