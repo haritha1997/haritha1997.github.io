@@ -10,7 +10,6 @@ slug: example
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  The recent posts about my learning are displayed here. Check it out and leave your valuable feedback.	
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  The recent posts about my learning, thoughts and experiences are displayed here. Check it out and leave your valuable feedback.	
+  
 ---
