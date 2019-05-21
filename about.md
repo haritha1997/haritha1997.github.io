@@ -21,7 +21,7 @@ hide_description: true
 
 ## About Me
 
-A final year Computer Science Engineer in the making.  A "*jack of all trades*" personality- loves computer science, problem solving, writing, people's person and a dash of artistic mind. New learning can be always exhilarating; be it anything.!
+A Computer Science Engineer in the making.  A "*jack of all trades*" personality- loves computer science, problem solving, writing, people's person and a dash of artistic mind. New learning can be always exhilarating; be it anything.!
 
 ## About the blog
 
