@@ -3,44 +3,46 @@ layout: post
 title: How to Solve Realtek Wifi Issue in Ubuntu and Arch Linux
 description: >
   A tutorial to solve low range wifi issue during new installation or upgradation of Ubuntu and Arch Linux.
-image: /assets/img/blog/example-content-ii.jpg
+image: /assets/img/wifiissue.jpg
 noindex: true
 ---
+Ever experienced a weak wifi signal, which disconnects as you move your laptop away, when you recently installed your operating system? Didn't find the list of wifi connections in the wifi menu? Don't worry, you're in the right place.!
 
-New to Ubuntu? Or recently installed Ubuntu on your device?  upgraded to latest version 16.04 LTS ?? are some of the questions that arouse in a tech geek’s mind when the not-so-geeky people complain that their laptops are not showing the available WiFi networks in the area or have connections with very poor range when they log into Ubuntu. Over the time it has been a very common issue for all the Linux users, especially the newcomers.
+From my personal experience, I've always encountered this wifi issue as I try out a new operating system or upgrade the existing one on my system. It shows a weak signal and doesn't list all the nearby available wifi connections in the wifi menu. And I know, it's really tedious to install all your files and libraries with a weak signal, which just breaks off as you switch to another room from the router, or that connects only on a hotspot. Frustrating.
 
-From  personal experience, the following steps have proven useful when the WiFi hardware in my device was showing poor range(can be accessed only in a position very close to the router) and no other networks were detected. This is because your network hardware is using the wrong antenna configuration for communication.
+On the go, I realized it's because some of the files regarding my Realtek wifi driver (RTL8723be) is missing and installing it solves the issue. This problem occurs because the network hardware is using the wrong antenna for communication.
 
+I've been an ardent user of Arch Linux and Ubuntu, but the installation for this on these two operating systems are different. This article will guide through fixing your wifi in Arch Linux and Ubuntu distributions.
 
-## Solution :
-
+# In Ubuntu
 
 ## Download WiFi driver source files:
 
-Establish a network connection by using an Ethernet cable from your router to download the necessary files. Download the zip file from the below link, unzip it, and copy the files onto the Desktop for easy accessibility.  To download the zip file: [Download](https://github.com/lwfinger/rtlwifi_new.git)
+Establish a network connection by using an Ethernet cable from your router or turn on your mobile hotspot placed near to your system to download the necessary files. Download the zip file from the below link, unzip it, and copy the files onto the Desktop for easy accessibility.  To download the zip file: [Download](https://github.com/lwfinger/rtlwifi_new.git)
 
  
-##  Open the Terminal:
+## Open the Terminal:
 
 Type in the following commands.
 
 ```
-cd Desktop cd rtlwifi_new-rock.new_btcoex
+ cd rtlwifi_new
 ```
 
 Now the directory is changed to the required driver file folder. In order to build and install the components in the driver file, type in the following.
 
 ```
-`make`
+ make
 ```
-Wait for the processes to get finished. Enter the sudo commands below and give the necessary authentication password wherever required.
+Wait for the processes to get finished. Enter the sudo commands below and give the necessary authentication password wherever required. Please note that rtl8723be is the name of my wifi driver. You can find yours by running the *lspci* command on the terminal. 
  
 ```
-sudo make install sudo modprobe -rv rtl8723be 
+sudo make install 
+sudo modprobe -rv rtl8723be 
 sudo modprobe -v rtl8723be ant_sel=2
 ```
 
-Enter the iwconfig command, and note down the id displayed at first starting with “wl___”. Keep that id in mind to use it and replace your corresponding id( depends on the network card that each user is using) in the place of the code starting with “wl” in the following commands.
+Enter the *iwconfig* command, and note down the id displayed at first starting with “wl___”. Keep that id in mind to use it and replace your corresponding id( depends on the network card that each user is using) in the place of the code starting with “wl” in the following commands.
 
 ```
 sudo ip link set wlo1 up 
@@ -52,4 +54,17 @@ To make your settings permanent,
 ```
 `echo "options rtl8723be ant_sel=2" | sudo tee /etc/modprobe.d/50-rtl8723be.conf``
 ```
+# In Arch Linux
+
+In any Arch Linux distro, I myself used Antergos, the scenario is quite different from Ubuntu. Arch Linux has the RealTek Wifi Driver files already installed, only issue was the antennae selection by the network hardware was wrong. So, removing the package and re-installing with the proper antennae selection solved the issue.! Type in the following commands if you find the same difficulty:
+
+## Open the Terminal:
+
+Type in the following commands.
+
+```
+sudo modprobe rtl8723be -r
+sudo modprobe rtl8723be ant_sel=2
+``` 
+
 And that should get everything working! 🙂
