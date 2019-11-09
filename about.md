@@ -21,7 +21,7 @@ hide_description: true
 
 ## About Me
 
-An aspiring individual who always have the zest to do something more and by education a Computer Science Engineering Undergraduate. Working as Software Engineer for a startup comapany. Love to work on challenging projects, cutting edge technologies and above all working with a energetic bunch of people motivates me to achieve more..!   A "*jack of all trades*" personality- loves computer science, problem solving, writing, people's person and a dash of artistic mind. New learning can be always exhilarating; be it anything.!
+An aspiring individual who always have the zest to do something more and by profession a Computer Science Engineer. Working as Software Engineer for a startup company. Love to work on challenging projects, cutting edge technologies and above all working with a energetic bunch of people motivates me to achieve more..!   A "*jack of all trades*" personality- loves computer science, problem solving, writing, people's person and a dash of artistic mind. New learning can be always exhilarating; be it anything.!
 
 
 ## About the blog
