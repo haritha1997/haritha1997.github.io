@@ -41,7 +41,7 @@ The feeling of living alone, traveling alone, managing your expenses alone is ju
 
 I'm a person who doesn't wish to be indoors for long time, strolling around is my main pastime but at times that habit burns holes in my pocket too :P In my hometown, I usually roam around in autos, private bus etc but the show ends at sharp 6pm. No more.No less.
 
-![](https://drive.google.com/open?id=15nPwAsoSMutE2ZkkuxiFEqB2KDTVeNhr)
+Format:![](https://drive.google.com/open?id=15nPwAsoSMutE2ZkkuxiFEqB2KDTVeNhr)
 
 Bengaluru helped me to gain that confidence to travel alone in the night, taking uber pools in evenings with no suspicion and above all travelling for 12 hrs straight in ksrtc bus all the way till Kerala.
 
