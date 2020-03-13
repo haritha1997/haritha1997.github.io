@@ -31,6 +31,8 @@ Nevertheless, I should say, this city is full of opportunities. Take a bus ride 
 
 Looking out to infinity from my office terrace, all I can see is tall MNC buildings with gleaming led nameboards, malls, bustling roads with people rushing to homes after work, which makes me feel there are endless possibilities to explore here according to my dreams.
 
+![](/assets/img/day.jpg)
+
 I always feel this city accommodates anybody. Whichever native you are or what language you  speak, or what kind of work you want to do, people over here accept mixed culture.
 
 Speaking to uber drivers and bhaiyyas in hostel with 'thoda-thoda' Hindi still continues to be a fun learning experience , which I would never have done if I were in Kerala.
@@ -41,7 +43,7 @@ The feeling of living alone, traveling alone, managing your expenses alone is ju
 
 I'm a person who doesn't wish to be indoors for long time, strolling around is my main pastime but at times that habit burns holes in my pocket too :P In my hometown, I usually roam around in autos, private bus etc but the show ends at sharp 6pm. No more.No less.
 
-Format:![](https://drive.google.com/open?id=15nPwAsoSMutE2ZkkuxiFEqB2KDTVeNhr)
+![](/assets/img/night.jpg)
 
 Bengaluru helped me to gain that confidence to travel alone in the night, taking uber pools in evenings with no suspicion and above all travelling for 12 hrs straight in ksrtc bus all the way till Kerala.
 
@@ -70,6 +72,8 @@ In the end, it's your choice where you have to be and the work you wanna do-be i
 **Friends❤️**
 
 They make my life extra spicier in this weird city. Trust me, without you guys I would have never survived without missing home. The hyper-active peeps back in college are now responsibly talking about work, struggles of living alone, what to do in future, settling down..topics of discussion also change as years pass by, but I really enjoy that transition.  We're growing up together:)
+
+![](/assets/img/friends-2.jpg)
 
 I must say everyone at one point in their life should stay away from home for quite a while to realize how comfortable we were which we often complain about daily. Little to miss home, little to feel the independance.!
 
